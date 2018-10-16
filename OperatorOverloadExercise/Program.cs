@@ -10,6 +10,13 @@ namespace OperatorOverloadExercise
 	{
 		static void Main(string[] args)
 		{
+
+
+			Employee employee = new Employee();
+			employee.FirstName = new List<string>() { "Sample" };
+			employee.LastName = new List<string>() { "Student" };
+			employee.SayName();
+			Console.ReadLine();
 		}
 	}
 }
